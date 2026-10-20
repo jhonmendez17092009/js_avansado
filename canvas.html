@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Canvas</title>
+</head>
+<body>
+
+    <canvas id="lienzo" width="300" height="200"
+        style="border: 1px solid black;">
+    </canvas>
+
+    <script>
+        const canvas = document.getElementById("lienzo");
+        const ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "blue";
+        ctx.fillRect(50, 40, 150, 100);
+    </script>
+
+</body>
+</html>
